@@ -1,0 +1,39 @@
+Testing the ssh connection for this git repo
+
+git Repo - MERN
+
+github repo - narsss1234/MERN
+
+we are using ssh connection
+
+navigated to "~/.ssh" folder
+
+bash shell
+
+ssh-keygen
+
+created a public and private key
+
+added the public key in the github 
+
+created a config file in .ssh folder locally
+
+added
+
+```
+Host github.com
+    User git
+    IdentityFile ~/.ssh/id_<privatekey>
+```
+
+then tried to login using ssh command
+
+```
+ssh -T git@github.com
+```
+
+Then tried to clone the repo using ssh link
+
+```
+git clone git@github.com:narsss1234/MERN.git
+```

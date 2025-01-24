@@ -47,7 +47,7 @@ git clone git@github.com:narsss1234/MERN.git
 HTML -> HyperText Markup Language
 
 Tags you need to know
-
+```
 <a> -> anchor(used for links)
 <body> -> body of the html boilerplate
 <br> -> break the line, go to next
@@ -85,6 +85,7 @@ Tags you need to know
 <ul> -> unordered list
 
 <h1>Hello World!</h1>
+```
 
 # CSS
 

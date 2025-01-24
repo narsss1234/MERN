@@ -1,6 +1,48 @@
 # MERN
 Learning Mern Fullstack
 
+# Github
+
+Testing the ssh connection for this git repo
+
+git Repo - MERN
+
+github repo - narsss1234/MERN
+
+we are using ssh connection
+
+navigated to "~/.ssh" folder
+
+bash shell
+
+ssh-keygen
+
+created a public and private key
+
+added the public key in the github 
+
+created a config file in .ssh folder locally
+
+added
+
+```
+Host github.com
+    User git
+    IdentityFile ~/.ssh/id_<privatekey>
+```
+
+then tried to login using ssh command
+
+```
+ssh -T git@github.com
+```
+
+Then tried to clone the repo using ssh link
+
+```
+git clone git@github.com:narsss1234/MERN.git
+```
+
 # HTML
 HTML -> HyperText Markup Language
 
@@ -48,3 +90,10 @@ Tags you need to know
 
 CSS -> Cascading Style Sheets
 
+How to add CSS? There are three way to do it
+
+1) inline -> <tag style="css" />
+
+2) Internal -> <style>css</style>
+
+3) External -> <link href="style.css"/>

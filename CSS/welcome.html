@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en", style="background: lightblue;">
+    <head id="head">
+        <title>Example HTML Website</title>
+    </head>
+    <body style="background: lightcoral;">
+        <header>
+            <h1>My Website</h1>
+            <style>
+                h1{
+                    background: red;
+                }
+            </style>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Welcome to My Website</h2>
+            <link 
+                rel="stylesheet"
+                href="./style.css"
+                />
+            <p>This is a simple website.</p>
+            <button onclick="addCSS()" id="button">Toggle CSS</button>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2021 My Website</p>
+        </footer>
+        <script>
+            let counter = 0
+            function addCSS() {
+                counter++
+                if(counter % 2 !== 0){
+                    document.getElementById("head").innerHTML = '   <title>Example HTML Website</title>'
+                }else{
+                    document.getElementById("head").innerHTML = '   <title>Example HTML Website</title>'
+                }
+            }
+        </script>
+    </body>
+</html>

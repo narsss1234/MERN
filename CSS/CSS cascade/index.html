@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS cascade</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            #type{
+                color:darkgoldenrod;
+            }
+            .imp{
+                color: darksalmon;
+                color: darkorange !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div>
+            <h1>CSS cascading properties - position</h1>
+                <ul>
+                    <li><h2>Heading1</h2></li>
+                    <li><h2>Heading2</h2></li>
+                </ul>
+            </div>
+            <hr />
+            <div>
+                <h1>Cascading properties - Specificity</h1>
+                <ul>
+                    <li><h2>Heading1</h2></li>
+                    <li><h2 class="first-class">Heading2</h2></li>
+                    <li><h2 draggable="true">Heading3</h2></li>
+                    <li><h2 id="first-id">Heading4</h2></li>
+                </ul>
+            </div>
+            <hr />
+            <div>
+                <h1>CSS cascading properties - Type</h1>
+                <ul>
+                    <li><h2>Heading1</h2></li>
+                    <li id="type"><h2>Heading2</h2></li>
+                    <li style="color: greenyellow;"><h2>Heading3</h2></li>
+                </ul>
+            </div>
+            <div>
+                <h1>CSS cascading properties - Importance</h1>
+                <ul>
+                    <li class="imp"><h2>Heading1</h2></li>
+                    <li class="imp"><h2>Heading2</h2></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

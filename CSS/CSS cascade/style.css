@@ -1,0 +1,18 @@
+li{
+    color: red;
+    color: blue;
+    color: yellow;
+    color: violet;
+}
+
+.first-class{
+    color: black;
+}
+
+li[draggable] h2 {
+    color: rgb(255, 255, 255);
+}
+
+#first-id{
+    color: red
+}

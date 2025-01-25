@@ -1,0 +1,34 @@
+#helvetica{
+    font-family: 'Helvetica', sans-serif;
+}
+
+#arial{
+    font-family: 'Arial', sans-serif;
+}
+
+#serif{
+    font-family: 'Times New Roman', serif;
+}
+
+#sans-serif{
+    font-family: 'Arial', sans-serif;
+}
+
+#monospace{
+    font-family: 'Courier New', monospace;
+}
+
+#cursive{
+    font-family: 'Brush Script MT', cursive;
+}   
+
+#fantasy{
+    font-family: 'Impact', fantasy;
+}
+
+h1{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}

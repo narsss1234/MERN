@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.img{
+    border: 5px solid white;
+    width: 100%
+}

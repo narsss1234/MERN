@@ -14,9 +14,8 @@ app.get("/", (req,res) => {
 });
 
 app.post("/submit", (req,res) => {
-    console.log(req.body['street'])
-    console.log(req.body['pet'])
-    res.send("Work in progress!")
+    console.log(req.body)
+    res.send(`<h1>Here is the band name: </h1><hr><br>${req.body['street']}${req.body['pet']}`)
 });
 
 app.listen(port, () => {

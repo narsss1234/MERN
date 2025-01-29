@@ -1,0 +1,15 @@
+{
+  "name": "postman_example_basic",
+  "version": "1.0.0",
+  "description": "Testing postman for fun",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SatyaN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

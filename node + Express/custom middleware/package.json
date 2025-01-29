@@ -1,17 +1,18 @@
 {
-  "name": "middleware_example_basic",
+  "name": "custom-middleware",
   "version": "1.0.0",
-  "description": "Using middleware",
   "main": "index.js",
-  "type": "module",
+  "type" : "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SatyaN",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
+    "morgan": "^1.10.0",
     "path": "^0.12.7",
     "url": "^0.11.4"
   }
